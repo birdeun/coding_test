@@ -7,6 +7,6 @@ elif a == b or a == c:
 elif b == c:
     prize = 1000 + b * 100
 else:
-    prize = (max(max(a,b),c)) * 100
+    prize = max(a,b,c) * 100
 
 print(prize)
