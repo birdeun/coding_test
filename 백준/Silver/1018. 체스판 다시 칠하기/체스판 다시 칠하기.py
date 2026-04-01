@@ -35,3 +35,17 @@ for i in range(n - 7):
 
         rst = min(ws, bs, rst)
 print(rst)
+
+# ========================================================================
+
+# for i in range(n - 7):
+#     for j in range(m - 7):
+#         ws = 0
+#         bs = 0
+
+#         for x in range(i, i+8):
+#             for y in range(j, j+8):
+#                 if (x + y) % 2 == 0:
+#                     if board[x][y] != 'W':
+
+#                 # 이렇게 cur 안 쓰고 직접 사용하는 버전도 있음
